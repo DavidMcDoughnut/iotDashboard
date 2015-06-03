@@ -1,0 +1,490 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+ body{background: url("sutro3.jpg") no-repeat left bottom fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        }
+
+        body {
+    position: relative;
+    background: url('sutro3.jpg') fixed;
+    background-size: cover;
+    height: 760px;
+    width: auto;
+}
+
+#wrapper{
+    height: 780px;
+    width: 1420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* scrollbar
+#wrapper{overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Track 
+#wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(247,40,40,1); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    opacity: 1;
+    background:transparent;
+}
+
+#wrapper::-webkit-scrollbar-track-piece {
+    -webkit-box-shadow: inset 0 0 6px rgba(247,40,40,1); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    opacity: 1;
+    background:transparent;
+} 
+
+/* Handle 
+#wrapper::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(247,40,40,1); 
+    width: 4px;
+    
+}
+#wrapper::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(247,40,40,1); 
+    width: 4px;
+}
+*/
+#titlecontainer{
+        height: 80px;
+        width: auto;
+        position: relative;
+        margin-left: calc(0% + 5px);
+        top: 5px;
+        
+        }
+
+#title {
+        position: absolute;
+        opacity: 1;        
+        height: 80px;
+        top: 0px;
+        left:-15px;
+        background-repeat:no-repeat;
+        z-index: 10;
+        } 
+
+#cballogo {
+        position: absolute;
+        opacity: 1;        
+        height: 35px;
+        top: 47px;
+        left: 290px;
+        background-repeat:no-repeat;
+        z-index: 10;
+        } 
+
+#pagetitle{
+        position: absolute;
+        display: inline;
+        left:290px;
+        top:7px;
+        margin-right: 0px; 
+        text-align: left;
+        line-height: 40px;
+        color: rgb(255,153,0);
+        font-size: 50px;   
+        font-family: "Josefin Sans";
+          
+}
+
+/* top left box */
+.frosted1::before {
+    position: absolute;
+    margin: 0px 0 0 0px;
+    content: "";
+    left: 0;
+    top: 0px;
+    width: calc(4px + 100%);
+    height: calc(4px + 100%);
+    background: url('sutro3.jpg') fixed;
+    background-size: cover;
+    -webkit-filter: blur(6px);
+  -moz-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -o-filter: blur(4px);
+  filter: blur(4px);
+    z-index: -2;
+
+}
+
+/* top left box */
+.frosted1::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+/* top left box */
+.frosted1 {
+    
+    position: relative;
+    margin: 0px;
+    left:5px;
+    top: 25px;
+    width: 950px;
+    height: 280px;
+    border: 2px solid rgba(0,0,0,0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    
+    
+}
+
+
+
+#listleft{
+        position: absolute;
+        text-align: left;
+        width:390px;
+        line-height: 35px;
+        color: rgb(250,250,250);
+        font-size: 23px;   
+        font-family: "Josefin Sans";
+        margin-left: 35px;
+        top: 70px;
+
+}
+
+#listright{
+        position: absolute;
+        text-align: justify;
+        line-height: 35px;
+        color: rgb(250,250,250);
+        font-size: 23px;   
+        font-family: "Josefin Sans";
+        margin-left: 0px;
+        left:475px;
+        top: 70px;
+
+}
+
+#listTitle{
+        position: relative;
+        text-align:left;
+        color: rgb(0,174,239);
+        opacity: 2;
+        font-family: "Josefin Sans";
+        width: 400px;
+        margin-bottom: 0px;
+        border: 0px;
+        left:35px;
+        font-size: 25px;
+        top:-4px;
+        }
+
+#listSubTitle{
+        position: relative;
+        text-align:left;
+        color: rgb(150,150,150);
+        font-family: "Josefin Sans";
+        margin-top: 4px;
+        left:35px;
+        }
+
+#updatedtopleft{
+        position: absolute;
+        color: rgb(150,150,150);
+        opacity: 2;
+        font-family: "Josefin Sans";
+        width: 225px;
+        margin-bottom: 0px;
+        border: 0px;
+        top:5px;
+        right:-7px;
+        font-size: 15px;
+}
+
+#updatedbotleft{
+        position: absolute;
+        color: rgb(150,150,150);
+        opacity: 2;
+        font-family: "Josefin Sans";
+        width: 225px;
+        margin-bottom: 0px;
+        border: 0px;
+        top:5px;
+        right:-7px;
+        font-size: 15px;
+}
+
+#updatedbotright{
+        position: absolute;
+        color: rgb(150,150,150);
+        opacity: 2;
+        font-family: "Josefin Sans";
+        width: 225px;
+        margin-bottom: 0px;
+        border: 0px;
+        top:5px;
+        right:-7px;
+        font-size: 15px;
+}
+
+
+/* top right box */
+.frosted2::before {
+    position: absolute;
+    margin: 0px 0 0 0px;
+    margin-right: none;
+    content: "";
+    left: 0;
+    top: 0px;
+    width: calc(4px + 101%);
+    height: calc(102%);
+    background: url('sutro3.jpg') fixed;
+    background-size: cover;
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -o-filter: blur(4px);
+    filter: blur(4px);
+    z-index: -2;
+
+}
+
+/* top right box */
+.frosted2::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+    margin-right: none;
+}
+
+/* top right box */
+.frosted2 {
+    
+    position: relative;
+    margin: 0px;
+    margin-right: none;
+    margin-left: calc(0% + 5px);
+    left: 975px;
+    top: -259px;
+    width: 430px;
+    height: 280px;
+    border: 2px solid rgba(0,0,0,0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);   
+}
+
+#iftttlink{
+    display: block;
+    position: relative;
+    left:60px;
+    top: 40px;
+    height: 75px;
+    width: 310px;
+    margin-right: 0px;
+}
+
+/*#iftttcontainer{
+    position: relative;
+    left:35px;
+    top:10px;
+    height: 75px;
+    width: 310PX;
+}
+*/
+#iftttbutton{
+    left:60px;
+    top:40px;
+    height: 75px;
+    width: auto;
+    margin: 0px;
+}
+
+#iftttbutton2{
+    position: relative;
+    left:60px;
+    top:40px;
+    height: 75px;
+    width: auto;
+}
+
+#iftttdesccontainer{
+    top:40px;
+}
+
+#iftttdesc{
+    position: relative;
+    text-align: center;
+    line-height: 35px;
+    color: rgb(0,174,239);
+    font-size: 23px;   
+    font-family: "Josefin Sans";
+    margin: 20px;
+    top:55px;
+}
+
+/* middle left box */
+.frosted3::before {
+    position: absolute;
+    margin: 0px 0 0 0px;
+    content: "";
+    left: 0;
+    top: 0px;
+    width: calc(4px + 100%);
+    height: calc(4px + 100%);
+    background: url('sutro3.jpg') fixed;
+    background-size: cover;
+    -webkit-filter: blur(6px);
+  -moz-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -o-filter: blur(4px);
+  filter: blur(4px);
+    z-index: -2;
+
+}
+
+/* middle left box */
+.frosted3::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+/* middle left box */
+.frosted3 {
+    
+    position: relative;
+    margin: 0px;
+    margin-left: calc(0% + 5px);
+    top: -240px;
+    width: 690px;
+    height: 355px;
+    border: 2px solid rgba(0,0,0,0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);   
+}
+
+#trendcharttitle{
+    position: relative;
+    text-align:left;
+    color: rgb(0,174,239);
+    opacity: 2;
+    font-family: "Josefin Sans";
+    width: 400px;
+    margin-bottom: 0px;
+    border: 0px;
+    left:35px;
+    font-size: 25px;
+    top:15px;    
+}
+
+#googtrend {
+    position: absolute;
+    top: 20px;
+    height: 340px;
+    z-index: 0;
+
+}
+
+/* middle right box */
+.frosted4::before {
+    position: absolute;
+    margin: 0px 0 0 0px;
+    content: "";
+    left: 0;
+    top: 0px;
+    width: calc(4px + 100%);
+    height: calc(4px + 100%);
+    background: url('sutro3.jpg') fixed;
+    background-size: cover;
+    -webkit-filter: blur(6px);
+  -moz-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -o-filter: blur(4px);
+  filter: blur(4px);
+    z-index: -12;
+
+}
+
+/* middle right box */
+.frosted4::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -11;
+}
+
+/* middle right box */
+.frosted4 {
+    
+    position: relative;
+    margin: 0px;
+    margin-right: 0px;
+    left: 720px;
+    top: -599px;
+    width: 690px;
+    height: 355px;
+    border: 2px solid rgba(0,0,0,0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);   
+    
+}    
+
+#curvecharttitle{
+    position: relative;
+    text-align:left;
+    color: rgb(0,174,239);
+    opacity: 2;
+    font-family: "Josefin Sans";
+    width: 400px;
+    margin-bottom: 0px;
+    border: 0px;
+    left:35px;
+    font-size: 25px;
+    top:15px;    
+}
+
+#curve_chart{
+    left: -90px;
+    top: -18px;
+    position: relative;
+    width: 900px;
+    height: 360px;
+    z-index:-1;
+}
+
+
+
+
+
