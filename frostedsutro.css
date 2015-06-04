@@ -123,6 +123,20 @@ body {
         
         }
 
+#githublink{
+        color: rgb(255,153,0);
+        text-decoration: none;
+
+}
+
+#githublink:hover{
+        color: rgb(0,174,239);
+        text-decoration: none;
+}
+
+#githublink:active {
+        color: rgb(200,200,200);
+        text-decoration: none;
 }
 
 /* top left box */

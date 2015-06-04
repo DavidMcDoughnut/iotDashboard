@@ -168,7 +168,7 @@ var data = new google.visualization.DataTable(<?=$jsontable?>);
   <img id="cballogo" src="cballight.png"></img>
 
   <div id="pagetitle">I o T  &nbsp D a s h b o a r d</div>
-  <div id="attribution"> @davidmcdoughnut </div>
+  <div id="attribution"> <a href="https://github.com/DavidMcDoughnut" target="_blank" id="githublink"> @davidmcdoughnut </a></div>
   </div>
 
 
@@ -349,7 +349,7 @@ for($indx = 1; $row = mysql_fetch_array($crunchiot_SQLselect_Query, MYSQL_ASSOC)
 
 <div class="frosted2">
 
-<a href="https://ifttt.com/view_em  d_recipe/239435-new-iot-company-notification"
+<a href="https://ifttt.com/recipes/239435-new-iot-company-notification"
       target = "_blank" 
       class="embed_recipe embed_recipe-l_28"
       width="310px"
