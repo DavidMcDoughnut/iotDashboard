@@ -168,7 +168,9 @@ var data = new google.visualization.DataTable(<?=$jsontable?>);
   <img id="cballogo" src="cballight.png"></img>
 
   <div id="pagetitle">I o T  &nbsp D a s h b o a r d</div>
+  <div id="attribution"> @davidmcdoughnut </div>
   </div>
+
 
 
 
