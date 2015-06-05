@@ -256,7 +256,7 @@ $indx = 1;
       $Db = $row['db'];
 
       if ($indx <6){
-      echo $indx." - ".$Name.": ".date("m-d-Y",$Created).", ".$Db."<br />";
+      echo $indx." - ".$Name.": ".date("m-d-Y",$Created)." (".$Db.")"."<br />";
 
       $indx++; }
       
@@ -333,7 +333,7 @@ for($indx = 1; $row = mysql_fetch_array($crunchiot_SQLselect_Query, MYSQL_ASSOC)
       $Db = $row['db'];
       
      if($indx<11){
-      echo $indx." - ".$Name.": ".date("m-d-Y",$Created).", ".$Db."<br />";
+      echo $indx." - ".$Name.": ".date("m-d-Y",$Created)." (".$Db.")"."<br />";
 
       }
       
